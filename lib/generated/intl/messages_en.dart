@@ -22,9 +22,33 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "alphabet": MessageLookupByLibrary.simpleMessage("Alphabet"),
+        "alphabet_des":
+            MessageLookupByLibrary.simpleMessage("Learn the Arabic alphabet"),
+        "chat_ai": MessageLookupByLibrary.simpleMessage("Chat with Mualim AI"),
+        "continue_practice":
+            MessageLookupByLibrary.simpleMessage("Continue Practice"),
+        "current_streak":
+            MessageLookupByLibrary.simpleMessage("Current\nStreak"),
+        "harakats": MessageLookupByLibrary.simpleMessage("Harakats"),
+        "harakats_des":
+            MessageLookupByLibrary.simpleMessage("Learn Arabic harakats"),
         "leaderboard": MessageLookupByLibrary.simpleMessage("Leaderboard"),
+        "learn_taj": MessageLookupByLibrary.simpleMessage("Learn the Tajweed"),
+        "lessons": MessageLookupByLibrary.simpleMessage("Lessons"),
+        "lessons_completed":
+            MessageLookupByLibrary.simpleMessage("Lessons\nCompleted"),
         "main_menu": MessageLookupByLibrary.simpleMessage("Main Menu"),
+        "mualim": MessageLookupByLibrary.simpleMessage("Mualim"),
+        "phrases": MessageLookupByLibrary.simpleMessage("Phrases"),
+        "phrases_des":
+            MessageLookupByLibrary.simpleMessage("Master basic Arabic phrases"),
         "practice": MessageLookupByLibrary.simpleMessage("Practice"),
-        "schedule": MessageLookupByLibrary.simpleMessage("Schedule")
+        "practice_ai": MessageLookupByLibrary.simpleMessage(
+            "Practice with AI (Coming soon)"),
+        "schedule": MessageLookupByLibrary.simpleMessage("Schedule"),
+        "words": MessageLookupByLibrary.simpleMessage("Words"),
+        "words_des":
+            MessageLookupByLibrary.simpleMessage("Practice common Arabic words")
       };
 }

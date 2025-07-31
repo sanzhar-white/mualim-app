@@ -89,6 +89,166 @@ class S {
       args: [],
     );
   }
+
+  /// `Mualim`
+  String get mualim {
+    return Intl.message(
+      'Mualim',
+      name: 'mualim',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Current\nStreak`
+  String get current_streak {
+    return Intl.message(
+      'Current\nStreak',
+      name: 'current_streak',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lessons\nCompleted`
+  String get lessons_completed {
+    return Intl.message(
+      'Lessons\nCompleted',
+      name: 'lessons_completed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue Practice`
+  String get continue_practice {
+    return Intl.message(
+      'Continue Practice',
+      name: 'continue_practice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lessons`
+  String get lessons {
+    return Intl.message(
+      'Lessons',
+      name: 'lessons',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Alphabet`
+  String get alphabet {
+    return Intl.message(
+      'Alphabet',
+      name: 'alphabet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Learn the Arabic alphabet`
+  String get alphabet_des {
+    return Intl.message(
+      'Learn the Arabic alphabet',
+      name: 'alphabet_des',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Harakats`
+  String get harakats {
+    return Intl.message(
+      'Harakats',
+      name: 'harakats',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Learn Arabic harakats`
+  String get harakats_des {
+    return Intl.message(
+      'Learn Arabic harakats',
+      name: 'harakats_des',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Words`
+  String get words {
+    return Intl.message(
+      'Words',
+      name: 'words',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Practice common Arabic words`
+  String get words_des {
+    return Intl.message(
+      'Practice common Arabic words',
+      name: 'words_des',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Phrases`
+  String get phrases {
+    return Intl.message(
+      'Phrases',
+      name: 'phrases',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Master basic Arabic phrases`
+  String get phrases_des {
+    return Intl.message(
+      'Master basic Arabic phrases',
+      name: 'phrases_des',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Practice with AI (Coming soon)`
+  String get practice_ai {
+    return Intl.message(
+      'Practice with AI (Coming soon)',
+      name: 'practice_ai',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Chat with Mualim AI`
+  String get chat_ai {
+    return Intl.message(
+      'Chat with Mualim AI',
+      name: 'chat_ai',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Learn the Tajweed`
+  String get learn_taj {
+    return Intl.message(
+      'Learn the Tajweed',
+      name: 'learn_taj',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

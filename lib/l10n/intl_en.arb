@@ -2,5 +2,23 @@
     "main_menu": "Main Menu",
     "practice": "Practice",
     "schedule": "Schedule",
-    "leaderboard": "Leaderboard"
+    "leaderboard": "Leaderboard",
+    "mualim": "Mualim",
+    "current_streak": "Current\nStreak",
+    "lessons_completed": "Lessons\nCompleted",
+    "continue_practice": "Continue Practice",
+    "lessons": "Lessons",
+    "alphabet": "Alphabet",
+    "alphabet_des": "Learn the Arabic alphabet",
+    "harakats": "Harakats",
+    "harakats_des": "Learn Arabic harakats",
+    "words": "Words",
+    "words_des": "Practice common Arabic words",
+    "phrases": "Phrases",
+    "phrases_des": "Master basic Arabic phrases",
+    "practice_ai": "Practice with AI (Coming soon)",
+    "chat_ai": "Chat with Mualim AI",
+    "learn_taj": "Learn the Tajweed"
+
+
 }

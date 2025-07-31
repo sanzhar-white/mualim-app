@@ -14,6 +14,7 @@ class LayoutScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
+    final colorScheme = Theme.of(context).colorScheme;
     final s = S.of(context);
     final destinations = [
       Destination(
@@ -37,8 +38,9 @@ class LayoutScaffold extends StatelessWidget {
       body: navigationShell,
       bottomNavigationBar: BottomAppBar(
         elevation: 0,
-        height: screenSize.height * 0.07,
+        height: screenSize.height * 0.09,
         padding: EdgeInsets.zero,
+        color: colorScheme.background,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: destinations.asMap().entries.map((entry) {
@@ -57,10 +59,10 @@ class LayoutScaffold extends StatelessWidget {
                       destination.imageUrl,
                       key: ValueKey<bool>(isSelected),
                       color: isSelected
-                          ? Theme.of(context).colorScheme.primary
-                          : Theme.of(context).colorScheme.onSurface,
-                      width: screenSize.width * 0.06,
-                      height: screenSize.width * 0.06,
+                          ? colorScheme.primary
+                          : colorScheme.onSurface,
+                      width: screenSize.width * 0.07,
+                      height: screenSize.width * 0.07,
                     ),
                   ),
                   SizedBox(height: screenSize.height * 0.005),
@@ -68,8 +70,8 @@ class LayoutScaffold extends StatelessWidget {
                     duration: const Duration(milliseconds: 200),
                     style: TextStyle(
                       color: isSelected
-                          ? Theme.of(context).colorScheme.primary
-                          : Theme.of(context).colorScheme.onSurface,
+                          ? colorScheme.primary
+                          : colorScheme.onSurface,
                       fontWeight: isSelected
                           ? FontWeight.w600
                           : FontWeight.normal,
